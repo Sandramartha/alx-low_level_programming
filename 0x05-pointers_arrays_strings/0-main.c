@@ -1,22 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* main - check the code
-*
-* Return: Always 0.
+* swap_int - swap the value of two integers
+*@a: first intege
+*@b: second integer
 */
-int main(void)
+void swap_int(int *a, int *b)
 {
-	int n;
+	int Night;
 
-	n = 402;
-
-	printf("n=%d\n", n);
-
-	reset_to_98(&n);
-
-	printf("n=%d\n", n);
-
-	return (0);
+	Night = *a;
+	*a = *b;
+	*b = Night;
 }
