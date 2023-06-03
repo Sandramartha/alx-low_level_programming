@@ -21,6 +21,7 @@ char *leet(char *Night)
 		{
 			if (*(Night + count == lower_case[i] || *(Night + count) == upper_case[i])
 			{
+
 			*(Night + count) = numbers[i];
 			break;
 			}
